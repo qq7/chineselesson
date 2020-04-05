@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Helvetica Neue LT Std-Bold";
+    src: url("fonts/HelveticaNeueLTStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Helvetica Neue LT Std";
+    src: url("fonts/HelveticaNeueLTStd.otf") format("opentype");
+}
+
+
+body {
+	background-color: #f5f0ea !important;
+}
+
+
+
+.lesson {
+	
+	text-decoration: underline;
+	text-decoration-color: #fc373e;
+}
+
+.red-span {
+	font-size: 30px;
+	color: #fc373e;
+	font-family: "Helvetica Neue LT Std";
+}
+
+.activity-heading-text-pronounciation {
+	padding-top: 21px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #f5f0ea;
+	font-family: "Helvetica Bold";
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.encouragement {
+	font-family: Manjari;
+	font-size: 40px;
+	margin-top: 25px;
+	font-weight: 700;
+}
+
+
+.activity-flashcards {
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	color: #9fc5d0;
+	font-family: "Helvetica Neue Bold";
+	font-size: 30px;
+	font-weight: 400;
+
+}
+
+.activity-heading-text {
+	padding-top: 21px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #f5f0ea;
+	font-family: "Helvetica Bold";
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.activity-logo {
+	width: 57px;
+	height: 57px;
+	margin: 10px 10px 10px 10px;
+}
+
+.activity-block-1 {
+	margin-top: 52px;
+}
+.activity-block {
+	margin-top: 110px;
+}
+
+.welcome-text {
+	padding-top: 35px;
+	font-family: Manjari;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 43.06px;
+}
+
+.activity-heading {
+	background-color: #051c2c;
+}
+
+.container.w-50 {
+	margin-top: 62px;
+}
+
+.header img {
+	float: right;
+	clear: right;
+	margin-top: 33px;
+	margin-bottom: 17px;
+	margin-right: 21px;
+}
+
+.footer img {
+
+	float: left;
+	clear: left;
+	margin-top: 33px;
+	margin-bottom: 17px;
+	margin-left: 21px;
+
+}
+
+.image-style {
+	float:right;
+}
+.lamp-globe-and-paper-plane-container {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 130%;
+	opacity: 0.5;
+}
+
+.bag-and-rocket-container {
+
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: -110%;
+	opacity: 0.5;
+
+}
+
+.footer {
+	height: 135px;
+	margin-top: 100px;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+	background-image: url('./img/dragon_right.png'), url('./img/dragon_right1.png');
+	background-repeat: repeat-x, no-repeat;
+    background-position: bottom right; 
+}
+
+.btn-ask-a-question {
+	color: #ffffff;
+	font-family: Manjari;
+	font-size: 30px;
+	width: 205px;
+height: 69px;
+	padding: 50px 50px;
+	font-weight: 700;
+}
+
+
+.header {
+	height: 135px;
+	margin-bottom: 110px;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+	background-image: url('./img/red.png'), url('./img/dragon.png');
+	background-repeat: repeat-x, no-repeat;
+}
+
