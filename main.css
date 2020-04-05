@@ -2,12 +2,39 @@
     font-family: "Helvetica Neue LT Std-Bold";
     src: url("fonts/HelveticaNeueLTStd-Bold.otf") format("opentype");
 }
-
+ 
 @font-face {
     font-family: "Helvetica Neue LT Std";
-    src: url("fonts/HelveticaNeueLTStd.otf") format("opentype");
+    src: url("./fonts/HelveticaNeue/HelveticaNeueLTStd-Italic.otf") format("opentype");
+    font-weight: italic;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Std";
+    src: url("./fonts/HelveticaNeue/HelveticaNeueLTStd-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Std";
+    src: url("fonts/HelveticaNeue/HelveticaNeueLTStd-Roman.otf") format("opentype");
+    font-style: roman;
+}
+@font-face {
+    font-family: "Manjari";
+    src: url("fonts/HelveticaNeueLTStd-Italic.otf");
+	font-style: regular;
 }
 
+@font-face {
+    font-family: "Manjari";
+    src: url("fonts/Manjari/Manjari-Regular.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Manjari";
+    src: url("fonts/Manjari/Manjari-Thin.ttf");
+    font-weight: thin;
+}
 
 body {
 	background-color: #f5f0ea !important;
@@ -16,13 +43,17 @@ body {
 
 
 .lesson {
-	
+	font-family: Manjari;
+	font-size: 39px;
+	font-weight: bold;
+	text-transform: uppercase;
 	text-decoration: underline;
 	text-decoration-color: #fc373e;
 }
 
 .red-span {
-	font-size: 30px;
+	font-size: 24px;
+	
 	color: #fc373e;
 	font-family: "Helvetica Neue LT Std";
 }
@@ -31,10 +62,11 @@ body {
 	padding-top: 21px;
 	padding-bottom: 15px;
 	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: middle;
 	color: #f5f0ea;
-	font-family: "Helvetica Bold";
-	font-size: 30px;
-	font-weight: 400;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 24px;
 	text-transform: uppercase;
 }
 
@@ -52,20 +84,21 @@ body {
 	margin-bottom: 50px;
 	
 	color: #9fc5d0;
-	font-family: "Helvetica Neue Bold";
+	font-family: "Helvetica Neue LT Std";
+	font-weight: bold;
 	font-size: 30px;
-	font-weight: 400;
 
 }
 
 .activity-heading-text {
-	padding-top: 21px;
+	padding-top: 26px;
+	vertical-align: middle;
+	font-weight: bold;
 	padding-bottom: 15px;
 	text-transform: uppercase;
 	color: #f5f0ea;
-	font-family: "Helvetica Bold";
-	font-size: 30px;
-	font-weight: 400;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 24px;
 	text-transform: uppercase;
 }
 
@@ -79,7 +112,7 @@ body {
 	margin-top: 52px;
 }
 .activity-block {
-	margin-top: 110px;
+	margin-top: 70px;
 }
 
 .welcome-text {
@@ -116,6 +149,16 @@ body {
 
 }
 
+.green-text {
+	font-weight: bold;
+	color: #01a04c;
+
+}
+
+.activity-video {
+	padding: 0 0 0 0;
+}
+
 .image-style {
 	float:right;
 }
@@ -148,6 +191,17 @@ body {
     background-position: bottom right; 
 }
 
+.activity-body {
+font-family: "Helvetica Neue LT Std";
+font-size: 23px;
+font-style: roman;
+font-weight: 400;
+}
+
+.activity-task {
+margin-bottom: 40px;
+}
+
 .btn-ask-a-question {
 	color: #ffffff;
 	font-family: Manjari;
@@ -156,6 +210,10 @@ body {
 height: 69px;
 	padding: 50px 50px;
 	font-weight: 700;
+}
+
+.welcome-activity {
+	margin-top: 25px;
 }
 
 
