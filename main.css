@@ -111,7 +111,7 @@ body {
 .activity-block-1 {
 	margin-top: 52px;
 }
-.activity-block {
+.lesson-activity-block {
 	margin-top: 70px;
 }
 
@@ -131,7 +131,7 @@ body {
 	margin-top: 62px;
 }
 
-.header img {
+.chinese-lesson-header img {
 	float: right;
 	clear: right;
 	margin-top: 33px;
@@ -139,7 +139,7 @@ body {
 	margin-right: 21px;
 }
 
-.footer img {
+.chinese-lesson-footer img {
 
 	float: left;
 	clear: left;
@@ -180,7 +180,7 @@ body {
 
 }
 
-.footer {
+.chinese-lesson-footer {
 	height: 135px;
 	margin-top: 100px;
 	background: #1abc9c;
@@ -207,9 +207,15 @@ margin-bottom: 40px;
 	font-family: Manjari;
 	font-size: 30px;
 	width: 205px;
-height: 69px;
+	height: 69px;
 	padding: 50px 50px;
 	font-weight: 700;
+}
+
+.ask-a-question {
+
+	margin-top: 110px;
+
 }
 
 .welcome-activity {
@@ -217,7 +223,7 @@ height: 69px;
 }
 
 
-.header {
+.chinese-lesson-header {
 	height: 135px;
 	margin-bottom: 110px;
 	background: #1abc9c;
