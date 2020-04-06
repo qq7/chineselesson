@@ -53,7 +53,7 @@ body {
 
 .red-span {
 	font-size: 24px;
-	
+	margin-right: 4px;
 	color: #fc373e;
 	font-family: "Helvetica Neue LT Std";
 }
@@ -206,6 +206,7 @@ font-weight: 400;
 .activity-task {
 margin-bottom: 40px;
 }
+
 
 .btn-ask-a-question {
 	color: #ffffff;
