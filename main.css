@@ -20,13 +20,13 @@
 }
 @font-face {
     font-family: "Manjari";
-    src: url("fonts/HelveticaNeueLTStd-Italic.otf");
-	font-style: regular;
+    src: url("fonts/Manjari/Manjari-Regular.ttf");
+	font-style: italic;
 }
 
 @font-face {
     font-family: "Manjari";
-    src: url("fonts/Manjari/Manjari-Regular.ttf");
+    src: url("fonts/Manjari/Manjari-Bold.ttf");
     font-weight: bold;
 }
 
@@ -214,12 +214,13 @@ margin-bottom: 40px;
 	width: 205px;
 	height: 69px;
 	padding: 50px 50px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .ask-a-question {
 
 	margin-top: 110px;
+	font-weight: bold;
 
 }
 
