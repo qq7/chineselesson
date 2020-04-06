@@ -170,6 +170,11 @@ body {
 	opacity: 0.69
 }
 
+.activity-icon {
+max-width: 100%;
+height: auto;
+}
+
 .bag-and-rocket-container {
 
 	display: inline-block;
