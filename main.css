@@ -192,7 +192,7 @@ height: auto;
 	color: white;
 	font-size: 30px;
 	background-image: url('./img/dragon_right.png'), url('./img/dragon_right1.png');
-	background-repeat: repeat-x, no-repeat;
+	background-repeat: no-repeat, repeat-x;
     background-position: bottom right; 
 }
 
@@ -236,7 +236,7 @@ margin-bottom: 40px;
 	background: #1abc9c;
 	color: white;
 	font-size: 30px;
-	background-image: url('./img/red.png'), url('./img/dragon.png');
-	background-repeat: repeat-x, no-repeat;
+	background-image: url('./img/dragon.png'), url('./img/red.png');
+	background-repeat: no-repeat, repeat-x;
 }
 
