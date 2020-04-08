@@ -48,31 +48,33 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
-	text-decoration-color: #fc373e;
+	text-decoration-color: red;
 }
 
 .red-span {
-	font-size: 24px;
+	font-size: 22px;
 	margin-right: 4px;
-	color: #fc373e;
+	color: red;
 	font-family: "Helvetica Neue LT Std";
 }
-
+.activity-heading-text-pronounciation .red-span {
+	font-size: 17px;
+}
 .activity-heading-text-pronounciation {
-	padding-top: 21px;
+	padding-top: 21px !important;
 	padding-bottom: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	vertical-align: middle;
 	color: #f5f0ea;
 	font-family: "Helvetica Neue LT Std";
-	font-size: 22px;
+	font-size: 17px;
 	text-transform: uppercase;
 }
 
 .encouragement {
 	font-family: Manjari;
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 25px;
 	font-weight: 700;
 }
@@ -86,26 +88,26 @@ body {
 	color: #9fc5d0;
 	font-family: "Helvetica Neue LT Std";
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 26px;
 
 }
 
 .activity-heading-text {
-	padding-top: 26px;
+	padding-top: 16px !important;
+	padding-bottom: 15px;
 	vertical-align: middle;
 	font-weight: bold;
 	padding-bottom: 15px;
 	text-transform: uppercase;
 	color: #f5f0ea;
 	font-family: "Helvetica Neue LT Std";
-	font-size: 24px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 
 .activity-logo {
 	width: 57px;
 	height: 57px;
-	margin: 10px 10px 10px 10px;
 }
 
 .activity-block-1 {
@@ -118,13 +120,14 @@ body {
 .welcome-text {
 	padding-top: 35px;
 	font-family: Manjari;
-	font-size: 34px;
+	font-size: 31px;
 	font-weight: 400;
 	line-height: 43.06px;
 }
 
 .activity-heading {
 	background-color: #051c2c;
+	
 }
 
 .container.w-50 {
@@ -157,6 +160,11 @@ body {
 
 .activity-video {
 	padding: 0 0 0 0;
+	margin-top: -30px;
+}
+
+.heading-row {
+	padding: 10px 10px 10px 10px;
 }
 
 .image-style {
@@ -166,7 +174,7 @@ body {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	margin-left: 130%;
+	margin-left: 138%;
 	opacity: 0.69
 }
 
@@ -197,14 +205,14 @@ height: auto;
 }
 
 .activity-body {
-font-family: "Helvetica Neue LT Std";
-font-size: 23px;
-font-style: roman;
-font-weight: 400;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 23px;
+	font-style: roman;
+	font-weight: 400;
 }
 
-.activity-task {
-margin-bottom: 40px;
+.activity-task:not(:last-child) {
+	margin-bottom: 40px;
 }
 
 
@@ -214,13 +222,11 @@ margin-bottom: 40px;
 	font-size: 30px;
 	width: 205px;
 	height: 69px;
-	padding: 50px 50px;
+	padding: 20px 20px !important;
 	font-weight: bold;
 }
 
 .ask-a-question {
-
-	margin-top: 110px;
 	font-weight: bold;
 
 }
@@ -229,9 +235,8 @@ margin-bottom: 40px;
 	margin-top: 25px;
 }
 
-
 .chinese-lesson-header {
-	height: 123px;
+	height: 135px;
 	margin-bottom: 110px;
 	background: #1abc9c;
 	color: white;
